@@ -43,9 +43,6 @@ const RegistrationForm = () => {
                 <label htmlFor="confirmPassword">
                     <input type="password" placeholder="Confirm your password" id="confirmPassword" name="confirmPassword" required onChange={handleInputChange} />
                 </label>
-                <label htmlFor="birthdate">
-                    <input type="date" id="birthdate" name="birthdate" placeholder="Your birthdate" required onChange={handleInputChange} />
-                </label>
                 <input type="submit" value="Create an account" />
             </form>
 
